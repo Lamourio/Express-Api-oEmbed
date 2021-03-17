@@ -1,0 +1,29 @@
+[    {
+    "provider_name": "Vimeo",
+    "provider_url": "https://vimeo.com/",
+    "endpoints": [{
+        "schemes": [
+            "https://vimeo.com/*",
+            "https://vimeo.com/album/*/video/*",
+            "https://vimeo.com/channels/*/*",
+            "https://vimeo.com/groups/*/videos/*",
+            "https://vimeo.com/ondemand/*/*",
+            "https://player.vimeo.com/video/*"
+        ],
+        "url": "https://vimeo.com/api/oembed.{format}",
+        "discovery": true
+    }]
+},{
+    "provider_name": "Flickr",
+    "provider_url": "https://www.flickr.com/",
+    "endpoints": [{
+        "schemes": [
+            "http://*.flickr.com/photos/*",
+            "http://flic.kr/p/*",
+            "https://*.flickr.com/photos/*",
+            "https://flic.kr/p/*"
+        ],
+        "url": "https://www.flickr.com/services/oembed/",
+        "discovery": true
+    }]
+}]
